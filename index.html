@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="EN">
+<header>
+
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript">window.jQuery || document.write('<script type="text\/javascript" src="js\/jquery-1.11.3.js"><\/script>')</script>
+
+</header>
+<body>
+	<div class="wrapper">
+		<h1>Minesweeper</h1>
+		<div class="container">
+		</div>
+		<div class="changeBoard">
+			<form>
+				<table>
+					<tr>
+						<td colspan="2" class="headerRow">Change board</td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<a href="">X</a>
+					<tr>
+						<td></td>
+						<td></td>
+						<td class="col2">Height</td>
+						<td class="col2">Width</td>
+						<td class="col2">Mines</td>
+					</tr>
+					<tr>
+						<td><input type="radio" id="but1" checked="checked"></input></td>
+						<td class="col1">Beginner</td>
+						<td class="col2">10</td>
+						<td class="col2">10</td>
+						<td class="col2">10</td>
+					</tr>
+					<tr>
+						<td><input type="radio" id="but2"></input></td>
+						<td>Intermediate</td>
+						<td>20</td>
+						<td>20</td>
+						<td>40</td>
+					</tr>
+					<tr>
+						<td><input type="radio" id="but3"></input></td>
+						<td>Expert</td>
+						<td>20</td>
+						<td>40</td>
+						<td>100</td>
+					</tr>
+					<tr>
+						<td><input type="radio" id="but4"></input></td>
+						<td>Custom</td>
+						<td><input type="text" value="20" class="textBox" id="height"></input></td>
+						<td><input type="text" value="50" class="textBox" id="width"></input></td>
+						<td><input type="text" value="145" class="textBox" id="mines"></input></td>
+					</tr>
+				</table>
+			</form>
+			<button class="play">Play</button>
+		</div>
+	</div>
+	<script src="js/minesweeper.js"></script>
+</body>
+</html>
