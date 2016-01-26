@@ -27,8 +27,8 @@ $('document').ready(function(){
 		rows = arg2;
 		mines = arg3;
 		cellsNum = rows * cols;
-		var width = (cols * 20).toString();
-		var height = (rows * 20).toString();
+		var width = (cols * 40).toString();
+		var height = (rows * 40).toString();
 		container.css({"width": width+"px", "height": height+"px"});
 		render(cols, rows);	
 		changeBoard();
