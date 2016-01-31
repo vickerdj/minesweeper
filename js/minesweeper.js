@@ -15,7 +15,6 @@ $('document').ready(function(){
 		cellRef = "";
 		firstClick = true;
 		firstSquare = "";
-		flagsLeft = 10;	
 		timeTaken = 0;
 		board = [];
 		minesPlaced = 0;
@@ -26,6 +25,7 @@ $('document').ready(function(){
 		cols = arg1;
 		rows = arg2;
 		mines = arg3;
+		flagsLeft = arg3;
 		cellsNum = rows * cols;
 		var width = (cols * 40).toString();
 		var height = (rows * 40).toString();
